@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        h1 {
+            color: white;
+            background-color: orangered;
+            text-align: center;
+            margin-right: 10px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        label {
+            color: blue;
+            font-size: 12px;
+        }
+        span {
+            color: orange;
+        }
+
+        .email {
+            margin-right: 18px;
+        }
+
+        #email {
+            margin-bottom: 8px;
+        }
+
+        #full-name {
+            margin-bottom: 8px;
+        }
+
+        .hobby {
+            margin-right: 8px;
+        }
+
+        #sport-hobby, #web-hobby, #travel-hobby {
+            margin-left: 50px;
+        }
+
+        #hobby-btn {
+            margin-left: 50px;
+            margin-bottom: 8px;
+        }
+
+        body {
+            margin: 0;
+            background-color: #d5feff;
+        }
+
+        .container {
+            background-color: white;
+            margin: 15px;
+            padding-top: 0.05rem;
+            width: 80%;
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="container">
+    <h1>SỞ THÍCH CỦA BẠN</h1>
+    <form>
+        <label>Họ và tên</label>
+        <input type="text" id="full-name"><br>
+
+        <label class="email">Email</label>
+        <input type="text" id="email"><br>
+
+        <label class="hobby">Sở thích</label><br>
+        <span class="hobby-details">
+        <input id="sport-hobby" name="hobby" type="checkbox"> <span>Thể thao</span>
+        <input name="hobby" type="checkbox"> <span>âm nhạc</span>
+        <input name="hobby" type="checkbox"> <span>Đọc sách</span><br>
+
+        <input id="web-hobby" name="hobby" type="checkbox"> <span>lướt web</span>
+        <input name="hobby" type="checkbox"> <span>chơi game</span>
+        <input name="hobby" type="checkbox"> <span>điện ảnh</span><br>
+
+        <input id="travel-hobby" name="hobby" type="checkbox"> <span>du lịch</span><br/>
+    </span>
+
+        <input id="hobby-btn" type="submit" value="Gửi thông tin">
+        <input type="reset" value="Nhập lại">
+    </form>
+</div>
+</body>
+</html>
